@@ -116,7 +116,7 @@
         const introTitles = firstSection
             ? Array.from(firstSection.querySelectorAll(".main_title"))
             : [];
-        const introImage = firstSection?.querySelector(".visual_img_box > img");
+        const introImage = firstSection?.querySelector(".visual_img_box > video");
 
         const INTRO_TITLE_MAX_SHIFT_PX = 140; // 타이틀 이동 기반치(px)
         const INTRO_MIN_SCALE_CURVE = 0.85; // 계산용 목표치
